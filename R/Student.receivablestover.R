@@ -8,6 +8,6 @@
 #' @examples 
 #' Recv.Tover.ratio(ns,arc,arp)
 
-Recv.Tover.ratio <- function(ns,arc,arp){
+Student.receivablestover <- function(ns,arc,arp){
   return(ns/((arc+arp)/2))
 }

@@ -7,6 +7,6 @@
 #' @examples 
 #' Asset.Tover.ratio(380000,850000,810000)
 
-Asset.Tover.ratio <- function(ns,ac,ap){
+Student.aveassettover<- function(ns,ac,ap){
   return(ns/((ac+ap)/2))
 }

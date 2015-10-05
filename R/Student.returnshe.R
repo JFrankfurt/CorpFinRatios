@@ -7,6 +7,6 @@
 #'@examples
 #'Ratio.rshe(ni,she)
 
-Ratio.rshe <- function(ni,she){
+Student.returnshe <- function(ni,she){
   return(ni/she)
 }

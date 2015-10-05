@@ -8,6 +8,6 @@
 #'  @examples 
 #'  Inv.Tover.ratio(cogs,ic,ip)
 
-Inv.Tover.ratio <- function(cogs,ic,ip){
+Student.aveinventorytover <- function(cogs,ic,ip){
   return(cogs/((ic+ip)/2))
 }

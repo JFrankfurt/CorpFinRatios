@@ -7,6 +7,6 @@
 #' @examples 
 #' Profm.sales(ni,ns)
 
-Profm.sales <- function(ni,ns) {
+Student.profitmarginonsales <- function(ni,ns) {
   return(ni/ns)
 }

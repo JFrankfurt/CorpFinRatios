@@ -7,6 +7,6 @@
 #' @examples 
 #' Ratio.niassets(ni,ta)
 
-Ratio.niassets <- function(ni,ta){
+Student.returnonassets <- function(ni,ta){
   return(ni/ta)
 }

@@ -8,7 +8,7 @@
 #' @examples 
 #' Avg.Col.period(ns,arc,arp,p)
 
-Avg.Col.period <- function(ns,arc,arp,p){
+Student.avecolperiod <- function(ns,arc,arp,p){
   if(missing(p)){
     p <- 365
   } else {
