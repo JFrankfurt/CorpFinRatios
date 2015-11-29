@@ -8,6 +8,6 @@
 #'@examples
 #'Return.sheq(ni,sec,sep)
 
-Return.sheq <- function(ni,sec,sep){
+Student.avereturnshe <- function(ni,sec,sep){
   return(ni/((sec+sep)/2))
 }

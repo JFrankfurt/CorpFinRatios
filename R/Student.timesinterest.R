@@ -10,6 +10,6 @@
 #' @examples
 #' Times.inte.ratio(ni,ie,tax)
 
-Times.inte.ratio <- function(ni,ie,tax){
+Student.timesinterest <- function(ni,ie,tax){
   return((ni+ie+tax)/ie)
 }

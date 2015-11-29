@@ -9,6 +9,6 @@
 #' @examples 
 #' Debt.eq.ratio(tl,se)
 
-Debt.eq.ratio <- function(tl,se){
+Student.debtequity <- function(tl,se){
   return(tl/se)
 }

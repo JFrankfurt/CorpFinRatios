@@ -10,7 +10,7 @@
 #' @examples 
 #' Ratio.eqmulti(tac,tap,sec,sep)
 
-Ratio.eqmulti <- function(tac,tap,sec,sep){
+Student.equitymulti <- function(tac,tap,sec,sep){
   ata <- (tac+tap)/2
   ase <- (sec+sep)/2
   return(ata/ase)

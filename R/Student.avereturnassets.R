@@ -8,7 +8,7 @@
 #'@examples
 #' Return.assets(ni,ac,ap)
 
-Return.assets <- function(ni,ac,ap){
+Student.avereturnassets <- function(ni,ac,ap){
   at <- (ni/((ac+ap)/2))
   return(at)
 }
